@@ -14,7 +14,6 @@ import java.util.concurrent.atomic.AtomicLong;
 @Service
 public class TarefaService {
     private final TarefaRepository repository;
-    private final AtomicLong sequencia = new AtomicLong();
 
     public TarefaService(TarefaRepository repository) {
         this.repository = repository;
